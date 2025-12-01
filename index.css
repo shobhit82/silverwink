@@ -13,6 +13,7 @@ header{
 header .navbar .container-fluid .navbar-brand{
     font-family: cursive;
     margin-left: 20px;
+    color: red;
 }
 header .navbar .container-fluid button{
     background-color: rgb(214, 166, 45);
