@@ -1,409 +1,470 @@
-body{
-    margin: 0px;
-    width: 100%;
+body {
+   margin: 0px;
+   width: 100%;
 }
-header{
-    background-image: url(./image/medium-shot-friends-with-beer-pub.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    
-}
-header .navbar .container-fluid .navbar-brand{
-    font-family: cursive;
-    margin-left: 20px;
-    color: #FFF;
-    /* border: 2px solid #FFF; */
-}
-header .navbar .container-fluid button{
-    background-color: rgb(214, 166, 45);
-    border-radius: 10px;
-    outline: none;
-    border: 0px;
-    padding: 10px;
-}
-header .navbar .container-fluid .dropdown-menu{
-    background-color: rgba(251, 251, 251, 0.764);
-    box-shadow: 0px 0px 10px white;
-    outline: none;
-    border: 0px;
-}
-  .dropdown-menu .dropdown-item:hover{
-            background-color: rgba(128, 128, 128, 0.805);
-            
 
-        }
-header img{
-    width: 130px;
-    background-color: rgba(244, 244, 244, 0.912);
-    padding: 10px;
-    border-radius: 10px;
-    position: absolute;
-    right: 35px;
-    top: 100px;
-    box-shadow: 0px 0px 10px goldenrod;
-    
-}
-header h1{
-    font-size: 7.5em;
-    color: white;
-    margin-left: 20px;
-    font-family: 'Larken', sans-serif;
-    text-shadow: 1px 0px 5px goldenrod;
-}
-header p{
-    color: white;
-    font-size: 2.1em;
-    margin-left: 20px;
-    text-transform: uppercase;
-}
-@media (min-width: 375px) and (max-width: 500px) { 
-    header img{
-        display: none;
-    }
-    header h1{
-        font-size: 1.9em;
-        margin-top: 10px;
-    }
-    header p {
-        font-size: 1em;
-    }
- }
+header {
+   background-image: url(./image/medium-shot-friends-with-beer-pub.jpg);
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
 
- @media (min-width:501px) and (max-width:667px) {
-    header h1{
-        font-size: 3em;
-        margin-top: 10px;
-    }
-    header p{
-        font-size: 1.3em;
-    }
- }
- @media (min-width:668px) and (max-width:887px) {
-    header h1{
-        margin-top: 10px;
-        font-size: 5em;
-    }
-    header p{
-        font-size: 1.8em;
-    }
- }
+}
 
- main section .history{
-    width: 100%;
-    height: 1000px;
-    background-image: url(./image/62185.jpg);
-       font-family: 'Larken', sans-serif;
-       overflow: hidden;
- } 
- main section .history .a{
-    width: 100%;
-    height: 95vh;
-    /* background-color: yellow; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
- main section .history .a .left{
-    width: 40%;
-    height: 80%;
-    background-image: url(./image/h2-3.webp);
-    background-size: cover;
-    overflow: hidden;
- }
- main section .history .a .left img{
-    margin-left: 20px;
- }
- main section .history .a .left img:hover{
-    transition: all linear 0.3s;
-    filter: brightness(1.1);
-    cursor: pointer;
- }
- 
- 
- main section .history .a .right{
-    width: 40%;
-    height: 80%;
-    /* background-color: green;  */
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    gap: 10px;
- }
- main section .history .a .right p{
-    font-size: 1.2em;
-    font-weight: 700;
-    color: firebrick;
-    text-transform: uppercase;
- 
- }
- 
- main section .history .a .right h1{
-    font-size: 3em;
-    font-weight: 700;
-    text-transform: uppercase;
- }
- 
- main section .history .a .right h3{
-    font-size: 1.2em;
-    /* font-weight: 700; */
-    color: gray;
- }
- main section .history .a .right .last{
-    border-left: 7px solid firebrick;
-    box-sizing: border-box;
-    margin-top: 20px;
-       display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
- }
- main section .history .a .right .last h2{
-    font-size: 1.2em;
-    width: 85%;
-    margin-left: 20px;
- }
-  main section .history .a .right .last p{
-    font-size: 1.2em;
-    width: 85%;
-    margin-left: 20px;
-    color: goldenrod;
- }
-  main section .history .a .right .last h3{
-    font-size: 1.2em;
-    width: 85%;
-    margin-left: 20px;
- }
- main section .history .book{
-    width: 100%;
-    height: 220px;
-    box-sizing: border-box;
-    /* background-color: green; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
- main section .history .book .left{
+header .navbar .container-fluid .navbar-brand {
+   font-family: cursive;
+   margin-left: 20px;
+   color: #FFF;
+   /* border: 2px solid #FFF; */
+}
+
+header .navbar .container-fluid button {
+   background-color: rgb(214, 166, 45);
+   border-radius: 10px;
+   outline: none;
+   border: 0px;
+   padding: 10px;
+}
+
+header .navbar .container-fluid .dropdown-menu {
+   background-color: rgba(251, 251, 251, 0.764);
+   box-shadow: 0px 0px 10px white;
+   outline: none;
+   border: 0px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+   background-color: rgba(128, 128, 128, 0.805);
+
+
+}
+
+header img {
+   width: 130px;
+   background-color: rgba(244, 244, 244, 0.912);
+   padding: 10px;
+   border-radius: 10px;
+   position: absolute;
+   right: 35px;
+   top: 100px;
+   box-shadow: 0px 0px 10px goldenrod;
+
+}
+
+header h1 {
+   font-size: 7.5em;
+   color: white;
+   margin-left: 20px;
+   font-family: 'Larken', sans-serif;
+   text-shadow: 1px 0px 5px goldenrod;
+}
+
+header p {
+   color: white;
+   font-size: 2.1em;
+   margin-left: 20px;
+   text-transform: uppercase;
+}
+
+@media (min-width: 375px) and (max-width: 500px) {
+   header img {
+      display: none;
+   }
+
+   header h1 {
+      font-size: 1.9em;
+      margin-top: 10px;
+   }
+
+   header p {
+      font-size: 1em;
+   }
+}
+
+@media (min-width:501px) and (max-width:667px) {
+   header h1 {
+      font-size: 3em;
+      margin-top: 10px;
+   }
+
+   header p {
+      font-size: 1.3em;
+   }
+}
+
+@media (min-width:668px) and (max-width:887px) {
+   header h1 {
+      margin-top: 10px;
+      font-size: 5em;
+   }
+
+   header p {
+      font-size: 1.8em;
+   }
+}
+
+main section .history {
+   width: 100%;
+   height: 1000px;
+   background-image: url(./image/62185.jpg);
+   font-family: 'Larken', sans-serif;
+   overflow: hidden;
+}
+
+main section .history .a {
+   width: 100%;
+   height: 95vh;
+   /* background-color: yellow; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+main section .history .a .left {
+   width: 40%;
+   height: 80%;
+   background-image: url(./image/h2-3.webp);
+   background-size: cover;
+   overflow: hidden;
+}
+
+main section .history .a .left img {
+   margin-left: 20px;
+}
+
+main section .history .a .left img:hover {
+   transition: all linear 0.3s;
+   filter: brightness(1.1);
+   cursor: pointer;
+}
+
+
+main section .history .a .right {
+   width: 40%;
+   height: 80%;
+   /* background-color: green;  */
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+   gap: 10px;
+}
+
+main section .history .a .right p {
+   font-size: 1.2em;
+   font-weight: 700;
+   color: firebrick;
+   text-transform: uppercase;
+
+}
+
+main section .history .a .right h1 {
+   font-size: 3em;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+main section .history .a .right h3 {
+   font-size: 1.2em;
+   /* font-weight: 700; */
+   color: gray;
+}
+
+main section .history .a .right .last {
+   border-left: 7px solid firebrick;
+   box-sizing: border-box;
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+}
+
+main section .history .a .right .last h2 {
+   font-size: 1.2em;
+   width: 85%;
+   margin-left: 20px;
+}
+
+main section .history .a .right .last p {
+   font-size: 1.2em;
+   width: 85%;
+   margin-left: 20px;
+   color: goldenrod;
+}
+
+main section .history .a .right .last h3 {
+   font-size: 1.2em;
+   width: 85%;
+   margin-left: 20px;
+}
+
+main section .history .book {
+   width: 100%;
+   height: 220px;
+   box-sizing: border-box;
+   /* background-color: green; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+main section .history .book .left {
    width: 60%;
    /* background-color: red; */
    display: flex;
    align-items: center;
    justify-content: space-evenly;
- }
- main section .history .book .right{
+}
+
+main section .history .book .right {
    width: 25%;
    /* background-color: yellow; */
    display: flex;
    flex-direction: column;
    align-items: end;
    gap: 10px;
- }
- @media (min-width: 375px) and (max-width: 500px){
-   main section .history .a{
+}
+
+@media (min-width: 375px) and (max-width: 500px) {
+   main section .history .a {
       display: flex;
       flex-direction: column;
    }
-   main section .history .a .left{
+
+   main section .history .a .left {
       width: 90%;
       height: 500px;
       margin-top: 20px;
    }
 
-   main section .history .a .left img{
+   main section .history .a .left img {
       width: 90%;
-      height:auto
+      height: auto
    }
+
    main section .history .a .right {
       width: 90%;
-   
+
    }
+
    main section .history .a .right p {
-    
+
       display: none;
    }
+
    main section .history .a .right h1 {
       width: 90%;
       font-size: 1.4em;
       margin-top: 30px;
    }
-   main section .history .a .right h3{
+
+   main section .history .a .right h3 {
       width: 90%;
-   
+
    }
+
    main section .history .book {
       display: flex;
       flex-direction: column;
    }
-   main section .history .book .left{
+
+   main section .history .book .left {
       width: 100%;
       margin-top: 70px;
    }
-   
-   main section .history .book .left img{
+
+   main section .history .book .left img {
       width: 70px;
 
    }
-   main section .history .book .right{
+
+   main section .history .book .right {
       margin-top: 70px;
       display: flex;
       align-items: center;
       justify-content: center;
    }
-   main section .history .book .right button{
-         width: 160px;
+
+   main section .history .book .right button {
+      width: 160px;
    }
- }
-  @media (min-width: 501px) and (max-width: 1000px){
-      main section .history .a{
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+   main section .history .a {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
    }
-   main section .history .a .left{
+
+   main section .history .a .left {
       width: 90%;
       height: 500px;
       margin-top: 20px;
    }
 
-   main section .history .a .left img{
+   main section .history .a .left img {
       width: 90%;
-      height:auto
+      height: auto
    }
-    main section .history .a .right {
+
+   main section .history .a .right {
       width: 90%;
-   
+
    }
+
    main section .history .a .right p {
-    
+
       display: none;
    }
+
    main section .history .a .right h1 {
       width: 90%;
       font-size: 1.4em;
       margin-top: 30px;
    }
-   main section .history .a .right h3{
+
+   main section .history .a .right h3 {
       width: 90%;
-   
+
    }
+
    main section .history .book {
       display: flex;
       flex-direction: column;
    }
-   main section .history .book .left{
+
+   main section .history .book .left {
       width: 100%;
       margin-top: 70px;
    }
-   
-   main section .history .book .left img{
+
+   main section .history .book .left img {
       width: 80px;
 
    }
-   main section .history .book .right{
+
+   main section .history .book .right {
       margin-top: 70px;
       display: flex;
       align-items: center;
       justify-content: center;
    }
-   main section .history .book .right button{
-         width: 160px;
+
+   main section .history .book .right button {
+      width: 160px;
    }
-  }   
- @media (min-width: 1001px) and (max-width: 1300px){
-        main section .history .a{
+}
+
+@media (min-width: 1001px) and (max-width: 1300px) {
+   main section .history .a {
       display: flex;
       /* flex-direction: column; */
       align-items: center;
       justify-content: center;
    }
-   main section .history .a .left{
+
+   main section .history .a .left {
       width: 40%;
       height: 500px;
       margin-top: 20px;
    }
 
-   main section .history .a .left img{
+   main section .history .a .left img {
       width: 90%;
-      height:auto
+      height: auto
    }
-    main section .history .a .right {
+
+   main section .history .a .right {
       width: 40%;
-   
+
    }
+
    main section .history .a .right p {
-    
+
       display: none;
    }
+
    main section .history .a .right h1 {
       width: 90%;
       font-size: 1.4em;
       margin-top: 30px;
    }
-   main section .history .a .right h3{
+
+   main section .history .a .right h3 {
       width: 90%;
-   
+
    }
+
    main section .history .book {
       display: flex;
       flex-direction: column;
    }
-   main section .history .book .left{
+
+   main section .history .book .left {
       width: 100%;
       margin-top: 70px;
    }
-   
-   main section .history .book .left img{
+
+   main section .history .book .left img {
       width: 80px;
 
    }
-   main section .history .book .right{
+
+   main section .history .book .right {
       margin-top: 70px;
       display: flex;
       align-items: center;
       justify-content: center;
    }
-   main section .history .book .right button{
-         width: 160px;
+
+   main section .history .book .right button {
+      width: 160px;
    }
- }
- main section .main{
+}
+
+main section .main {
    width: 100%;
    height: 330vh;
    background-color: rgb(254, 238, 254);
    overflow: hidden;
- }
- main section .main .breakfast{
+}
+
+main section .main .breakfast {
    width: 100%;
    height: 100vh;
    /* background-color: red; */
    display: flex;
- }
- main section .main .breakfast .pic{
+}
+
+main section .main .breakfast .pic {
    width: 50%;
    height: 100%;
    background-image: url(./image/chicken-schnitzel-with-tomato-green.jpg);
    background-size: cover;
- 
+
    display: flex;
    align-items: end;
    justify-content: center;
 
- }
- main section .main .dinner .pic {
-  background: url(./image/dinner.webp);
-  background-size: cover;
- }
-  main section .main .breakfast .pic p{
+}
+
+main section .main .dinner .pic {
+   background: url(./image/dinner.webp);
+   background-size: cover;
+}
+
+main section .main .breakfast .pic p {
    font-family: 'Larken', sans-serif;
    font-size: 7em;
-    text-shadow: 1px 0px 5px goldenrod;
+   text-shadow: 1px 0px 5px goldenrod;
    color: white;
- }
+}
 
- main section .main .breakfast .data{
+main section .main .breakfast .data {
    width: 50%;
    height: 100%;
    /* background-color: yellow; */
@@ -411,8 +472,9 @@ header p{
    flex-direction: column;
    align-items: center;
    justify-content: space-evenly;
- } 
- main section .main .breakfast .data .div{
+}
+
+main section .main .breakfast .data .div {
    width: 90%;
    height: 28%;
    background-color: rgba(251, 229, 229, 0.407);
@@ -422,21 +484,23 @@ header p{
    display: flex;
    align-items: center;
    justify-content: space-evenly;
- }
-  
- main section .main .breakfast .data .div .a{ 
+}
+
+main section .main .breakfast .data .div .a {
    width: 28%;
    height: 90%;
    /* background-color: green; */
    border-radius: 20px;
- }
- main section .main .breakfast .data .div .a img{ 
+}
+
+main section .main .breakfast .data .div .a img {
    width: 100%;
    height: 100%;
    background-size: cover;
    border-radius: 20px;
- }
- main section .main .breakfast .data .div .b{ 
+}
+
+main section .main .breakfast .data .div .b {
    width: 65%;
    height: 70%;
    /* background-color: blue; */
@@ -444,241 +508,264 @@ header p{
    flex-direction: column;
    align-items: start;
    justify-content: center;
- }
- 
-main section .main .breakfast .data .div .b h2{ 
+}
+
+main section .main .breakfast .data .div .b h2 {
    color: black;
    font-size: 1.2em;
- }
- 
-main section .main .breakfast .data .div .b h2 b{ 
+}
+
+main section .main .breakfast .data .div .b h2 b {
    color: firebrick;
    /* font-size: 1.2em; */
- }
-main section .main .breakfast .data .div .b p{ 
+}
+
+main section .main .breakfast .data .div .b p {
    color: gray;
    font-size: 1em;
- }
+}
 
- @media (min-width: 375px) and (max-width: 500px){
+@media (min-width: 375px) and (max-width: 500px) {
    main section .main {
       width: 100%;
    }
-      main section .main .breakfast 
-      {
-         display: flex;
-         flex-direction: column;
-         width: 100%;
-         height: 100vh;
-         overflow: hidden;
-      }
-      main section .main .breakfast .pic{
-         width: 80%;
-         margin: auto;
-         height: 40%;
-         background-size: cover;
-         /* display: none; */
-      }
-      main section .main .breakfast .pic p {
-         font-size: 2em;
-      }
-      
-      main section .main .breakfast .data {
-         width: 100%;
-         height: 50%;
-         /* background-color: rebeccapurple; */
-         
-      }
-      
 
-      main section .main .breakfast .data .div .a{
-         height: 85%;
+   main section .main .breakfast {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+   }
 
-      }
-      main section .main .breakfast .data .div .b h2{
-            font-size: .8em;
-      }
-      
-      main section .main .breakfast .data .div .b p{
-            font-size: .5em;
-      }
- }
-  @media (min-width: 501px) and (max-width: 600px){
-    main section .main {
+   main section .main .breakfast .pic {
+      width: 80%;
+      margin: auto;
+      height: 40%;
+      background-size: cover;
+      /* display: none; */
+   }
+
+   main section .main .breakfast .pic p {
+      font-size: 2em;
+   }
+
+   main section .main .breakfast .data {
+      width: 100%;
+      height: 50%;
+      /* background-color: rebeccapurple; */
+
+   }
+
+
+   main section .main .breakfast .data .div .a {
+      height: 85%;
+
+   }
+
+   main section .main .breakfast .data .div .b h2 {
+      font-size: .8em;
+   }
+
+   main section .main .breakfast .data .div .b p {
+      font-size: .5em;
+   }
+}
+
+@media (min-width: 501px) and (max-width: 600px) {
+   main section .main {
       width: 100%;
    }
-      main section .main .breakfast 
-      {
-         display: flex;
-         flex-direction: column;
-         width: 100%;
-         height: 100vh;
-         overflow: hidden;
-      }
-      main section .main .breakfast .pic{
-         width: 80%;
-         margin: auto;
-         height: 40%;
-         background-size: cover;
-         /* display: none; */
-      }
-      main section .main .breakfast .pic p {
-         font-size: 2.1em;
-      }
-      
-      main section .main .breakfast .data {
-         width: 100%;
-         height: 50%;
-         /* background-color: rebeccapurple; */
-         
-      }
-      
 
-      main section .main .breakfast .data .div .a{
-         height: 85%;
+   main section .main .breakfast {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+   }
 
-      }
-      main section .main .breakfast .data .div .b h2{
-            font-size: .8em;
-      }
-      
-      main section .main .breakfast .data .div .b p{
-            font-size: .5em;
-      }
-  }
-    @media (min-width: 601px) and (max-width: 700px){
-      main section .main {
+   main section .main .breakfast .pic {
+      width: 80%;
+      margin: auto;
+      height: 40%;
+      background-size: cover;
+      /* display: none; */
+   }
+
+   main section .main .breakfast .pic p {
+      font-size: 2.1em;
+   }
+
+   main section .main .breakfast .data {
+      width: 100%;
+      height: 50%;
+      /* background-color: rebeccapurple; */
+
+   }
+
+
+   main section .main .breakfast .data .div .a {
+      height: 85%;
+
+   }
+
+   main section .main .breakfast .data .div .b h2 {
+      font-size: .8em;
+   }
+
+   main section .main .breakfast .data .div .b p {
+      font-size: .5em;
+   }
+}
+
+@media (min-width: 601px) and (max-width: 700px) {
+   main section .main {
       width: 100%;
    }
-      main section .main .breakfast 
-      {
-         display: flex;
-         flex-direction: column;
-         width: 100%;
-         height: 100vh;
-         overflow: hidden;
-      }
-      main section .main .breakfast .pic{
-         width: 80%;
-         margin: auto;
-         height: 40%;
-         background-size: cover;
-         /* display: none; */
-      }
-      main section .main .breakfast .pic p {
-         font-size: 2.2em;
-      }
-      
-      main section .main .breakfast .data {
-         width: 100%;
-         height: 50%;
-         /* background-color: rebeccapurple; */
-         
-      }
-      
- 
-      main section .main .breakfast .data .div .a{
-         height: 95%;
 
-      }
-      main section .main .breakfast .data .div .b h2{
-            font-size: .8em;
-      }
-      
-      main section .main .breakfast .data .div .b p{
-            font-size: .5em;
-      }
-    }
-     @media (min-width: 701px) and (max-width: 900px){
- main section .main {
+   main section .main .breakfast {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+   }
+
+   main section .main .breakfast .pic {
+      width: 80%;
+      margin: auto;
+      height: 40%;
+      background-size: cover;
+      /* display: none; */
+   }
+
+   main section .main .breakfast .pic p {
+      font-size: 2.2em;
+   }
+
+   main section .main .breakfast .data {
+      width: 100%;
+      height: 50%;
+      /* background-color: rebeccapurple; */
+
+   }
+
+
+   main section .main .breakfast .data .div .a {
+      height: 95%;
+
+   }
+
+   main section .main .breakfast .data .div .b h2 {
+      font-size: .8em;
+   }
+
+   main section .main .breakfast .data .div .b p {
+      font-size: .5em;
+   }
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+   main section .main {
       width: 100%;
    }
-      main section .main .breakfast 
-      {
-         display: flex;
-         flex-direction: column;
-         width: 100%;
-         height: 100vh;
-         overflow: hidden;
-      }
-      main section .main .breakfast .pic{
-         width: 85%;
-         margin: auto;
-         height: 30%;
-         background-size: cover;
-         /* display: none; */
-      }
-      main section .main .breakfast .pic p {
-         font-size: 2.3em;
-      }
-      
-      main section .main .breakfast .data {
-         width: 100%;
-         height: 70%;
-         /* background-color: rebeccapurple; */
-         
-      }
-      
-    
-      main section .main .breakfast .data .div .a{
-         height: 90%;
 
-      }
-      main section .main .breakfast .data .div .b h2{
-            font-size: 1em;
-      }
-      
-      main section .main .breakfast .data .div .b p{
-            font-size: .8em;
-      }
-    }
-       @media (min-width: 901px) and (max-width: 1090px){
-         main section .main {
+   main section .main .breakfast {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+   }
+
+   main section .main .breakfast .pic {
+      width: 85%;
+      margin: auto;
+      height: 30%;
+      background-size: cover;
+      /* display: none; */
+   }
+
+   main section .main .breakfast .pic p {
+      font-size: 2.3em;
+   }
+
+   main section .main .breakfast .data {
+      width: 100%;
+      height: 70%;
+      /* background-color: rebeccapurple; */
+
+   }
+
+
+   main section .main .breakfast .data .div .a {
+      height: 90%;
+
+   }
+
+   main section .main .breakfast .data .div .b h2 {
+      font-size: 1em;
+   }
+
+   main section .main .breakfast .data .div .b p {
+      font-size: .8em;
+   }
+}
+
+@media (min-width: 901px) and (max-width: 1090px) {
+   main section .main {
       width: 100%;
    }
-      main section .main .breakfast 
-      {
-         display: flex;
-         flex-direction: column;
-         width: 100%;
-         height: 100vh;
-         overflow: hidden;
-      }
-      main section .main .breakfast .pic{
-         width: 95%;
-         margin: auto;
-         height: 20%;
-         background-size: cover;
-         /* display: none; */
-      }
-      main section .main .breakfast .pic p {
-         font-size: 2.4em;
-      }
-      
-      main section .main .breakfast .data {
-         width: 100%;
-         height: 80%;
-         /* background-color: rebeccapurple; */
-      }
-      main section .main .breakfast .data .div .a{
-         height: 90%;
-         width: 25%;
-      }
-      main section .main .breakfast .data .div .b h2{
-            font-size: 1.2em;
-      }
-      
-      main section .main .breakfast .data .div .b p{
-            font-size: 1em;
-      }
-       }
-        main section .lunch{
+
+   main section .main .breakfast {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+   }
+
+   main section .main .breakfast .pic {
+      width: 95%;
+      margin: auto;
+      height: 20%;
+      background-size: cover;
+      /* display: none; */
+   }
+
+   main section .main .breakfast .pic p {
+      font-size: 2.4em;
+   }
+
+   main section .main .breakfast .data {
+      width: 100%;
+      height: 80%;
+      /* background-color: rebeccapurple; */
+   }
+
+   main section .main .breakfast .data .div .a {
+      height: 90%;
+      width: 25%;
+   }
+
+   main section .main .breakfast .data .div .b h2 {
+      font-size: 1.2em;
+   }
+
+   main section .main .breakfast .data .div .b p {
+      font-size: 1em;
+   }
+}
+
+main section .lunch {
    width: 100%;
    height: 100vh;
    /* background-color: red; */
    display: flex;
- }
- main section .lunch .left{
+}
+
+main section .lunch .left {
    width: 50%;
    height: 100%;
    /* background-color: green; */
@@ -686,8 +773,9 @@ main section .main .breakfast .data .div .b p{
    align-items: center;
    flex-direction: column;
    justify-content: space-evenly;
- }
- main section .lunch .left .div{
+}
+
+main section .lunch .left .div {
    width: 90%;
    height: 28%;
    background-color: rgba(251, 229, 229, 0.407);
@@ -698,20 +786,23 @@ main section .main .breakfast .data .div .b p{
    align-items: center;
    justify-content: space-evenly;
 
- }
- main section .lunch .left .div .a{
+}
+
+main section .lunch .left .div .a {
    width: 26%;
    height: 90%;
    border-radius: 20px;
    /* background-color: blue; */
- }
- main section .lunch .left .div .a img{
+}
+
+main section .lunch .left .div .a img {
    width: 100%;
    height: 100%;
    background-size: cover;
    border-radius: 20px;
- }
- main section .lunch .left .div .b{
+}
+
+main section .lunch .left .div .b {
    width: 65%;
    height: 60%;
    /* background-color: khaki; */
@@ -719,21 +810,23 @@ main section .main .breakfast .data .div .b p{
    flex-direction: column;
    align-items: start;
    justify-content: center;
- }
- main section .lunch .left .div .b h2{
-  font-size: 1.2em;
-  color: black;
- }
-  main section .lunch .left .div .b h2 b{
-  color: firebrick;
- }
+}
 
- main section .lunch .left .div .b p{
-font-size: 1em;
-color: gray;
- }
+main section .lunch .left .div .b h2 {
+   font-size: 1.2em;
+   color: black;
+}
 
- main section .lunch .right{
+main section .lunch .left .div .b h2 b {
+   color: firebrick;
+}
+
+main section .lunch .left .div .b p {
+   font-size: 1em;
+   color: gray;
+}
+
+main section .lunch .right {
    width: 50%;
    height: 100%;
    background-color: yellow;
@@ -742,15 +835,17 @@ color: gray;
    display: flex;
    align-items: end;
    justify-content: center;
- }
- main section .lunch .right p{
-     font-family: 'Larken', sans-serif;
+}
+
+main section .lunch .right p {
+   font-family: 'Larken', sans-serif;
    font-size: 7em;
-    text-shadow: 1px 0px 5px black;
+   text-shadow: 1px 0px 5px black;
    color: white;
- }
-  @media (min-width: 375px) and (max-width: 500px){
-   main section .main .lunch{
+}
+
+@media (min-width: 375px) and (max-width: 500px) {
+   main section .main .lunch {
       width: 100%;
       height: 100vh;
       display: flex;
@@ -763,23 +858,28 @@ color: gray;
       height: 40%;
       margin: auto;
    }
+
    main section .main .lunch .right p {
       font-size: 3em;
    }
-   main section .main .lunch .left{
+
+   main section .main .lunch .left {
       width: 100%;
       height: 60%;
    }
-   main section .main .lunch .left .div h2{
-     font-size: .8em
+
+   main section .main .lunch .left .div h2 {
+      font-size: .8em
    }
-   main section .main .lunch .left .div p{
-     font-size: .5em;
+
+   main section .main .lunch .left .div p {
+      font-size: .5em;
    }
-   
-  }
-  @media (min-width: 501px) and (max-width: 600px){
-     main section .main .lunch{
+
+}
+
+@media (min-width: 501px) and (max-width: 600px) {
+   main section .main .lunch {
       width: 100%;
       height: 100vh;
       display: flex;
@@ -792,22 +892,27 @@ color: gray;
       height: 40%;
       margin: auto;
    }
+
    main section .main .lunch .right p {
       font-size: 3em;
    }
-   main section .main .lunch .left{
+
+   main section .main .lunch .left {
       width: 100%;
       height: 60%;
    }
-   main section .main .lunch .left .div h2{
-     font-size: .8em
+
+   main section .main .lunch .left .div h2 {
+      font-size: .8em
    }
-   main section .main .lunch .left .div p{
-     font-size: .5em;
+
+   main section .main .lunch .left .div p {
+      font-size: .5em;
    }
-  }
-   @media (min-width: 601px) and (max-width: 700px){
-      main section .main .lunch{
+}
+
+@media (min-width: 601px) and (max-width: 700px) {
+   main section .main .lunch {
       width: 100%;
       height: 100vh;
       display: flex;
@@ -820,22 +925,27 @@ color: gray;
       height: 40%;
       margin: auto;
    }
+
    main section .main .lunch .right p {
       font-size: 3em;
    }
-   main section .main .lunch .left{
+
+   main section .main .lunch .left {
       width: 100%;
       height: 60%;
    }
-   main section .main .lunch .left .div h2{
-     font-size: .8em
+
+   main section .main .lunch .left .div h2 {
+      font-size: .8em
    }
-   main section .main .lunch .left .div p{
-     font-size: .5em;
+
+   main section .main .lunch .left .div p {
+      font-size: .5em;
    }
-   }
-     @media (min-width: 701px) and (max-width: 900px){
-      main section .main .lunch{
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+   main section .main .lunch {
       width: 100%;
       height: 100vh;
       display: flex;
@@ -848,22 +958,27 @@ color: gray;
       height: 35%;
       margin: auto;
    }
+
    main section .main .lunch .right p {
       font-size: 3em;
    }
-   main section .main .lunch .left{
+
+   main section .main .lunch .left {
       width: 100%;
       height: 60%;
    }
-   main section .main .lunch .left .div h2{
-     font-size: 1em
+
+   main section .main .lunch .left .div h2 {
+      font-size: 1em
    }
-   main section .main .lunch .left .div p{
-     font-size: .7em;
+
+   main section .main .lunch .left .div p {
+      font-size: .7em;
    }
-     }
-       @media (min-width: 901px) and (max-width: 1090px){
-           main section .main .lunch{
+}
+
+@media (min-width: 901px) and (max-width: 1090px) {
+   main section .main .lunch {
       width: 100%;
       height: 100vh;
       display: flex;
@@ -876,191 +991,283 @@ color: gray;
       height: 20%;
       margin: auto;
    }
+
    main section .main .lunch .right p {
       font-size: 2em;
    }
-   main section .main .lunch .left{
+
+   main section .main .lunch .left {
       width: 100%;
       height: 75%;
    }
-   main section .main .lunch .left .div h2{
-     font-size: 1.1em
-   }
-   main section .main .lunch .left .div p{
-     font-size: 1em;
-   }
-       }
-      
-   main section .main .button{
-      width: 100%;
-   }
-   main section .chosse{
-      width: 100%;
-      height: 140vh;
-      overflow: hidden;
-      background-color: rgb(255, 255, 255);
-   }
-   main section .chosse h4{
-      color: rgb(118, 38, 38);
-        font-family: 'Larken', sans-serif;
-        margin-top: 100px;
-        margin-left: 100px;
-        text-transform: uppercase;
-   }
-      main section .chosse h1{
-      /* color: firebrick; */
-          margin-top: 50px;
-        margin-left: 100px;
-        text-transform: uppercase;
-        font-family: 'Larken', sans-serif;
-   }
-   main section .chosse .container{
-      /* background-color: red; */
-      height: 100vh;
-   }
-   main section .chosse .container .row .col{
-      /* border: 2px dotted lightgray; */
-      background-image: radial-gradient(rgb(255, 216, 254),rgb(255, 255, 255));
-      height: 365px;
-      border-radius: 5px;
-   }
-   
-   main section .chosse .container .row .col p{
-    color: gray;
-   }
-   @media (min-width: 375px) and (max-width: 600px) {
-      main section  .chosse {
-         width: 100%;
-         height: auto;
-         overflow: hidden;
-      }
-      main section .chosse h4
-     {
-         font-size: 1em;
-         margin-left: 10px;
-      }
-       main section .chosse h1{
-         font-size: 1.2em;
-         margin-left: 10px;
-       }
-       main section .chosse .container .row{
-         width: 100%;
-         display: flex;
-         flex-direction: column;
-       }
-       
-       main section .chosse .container .row .col{
-         width: 100%;
-         margin: auto;
-         display: block;
-       }
-   }
-     @media (min-width: 601px) and (max-width: 900px) {
-      main section  .chosse {
-         width: 100%;
-         height: auto;
-         overflow: hidden;
-      }
-      main section .chosse h4
-     {
-         font-size: 1.2em;
-         margin-top: 30px;
-         margin-left: 20px;
-      }
-       main section .chosse h1{
-         font-size: 1.4em;
-         margin-left: 20px;
-       }
-       main section .chosse .container .row{
-         width: 100%;
-        display: grid;
-        grid-template-columns: auto auto;
-       }
-       
-       main section .chosse .container .row .col{
-         width: 100%;
-         margin: auto;
-         display: block;
-         padding: 20px;
-         box-sizing: border-box;
-       }
-   }
-   main section .food{
-      width: 100%;
-      height: auto;
-      background-color: rgb(248, 235, 210);
-      background-image: linear-gradient(to top, pink ,white);
-      margin-top: 30px;
-   }
-   main section .food .h3{
-      color: firebrick;
-      text-align: center;
-      margin: 0;
-      text-transform: uppercase;
-   }
-   main section .food .h1{
-      /* color: firebrick; */
-      text-align: center;
-      text-transform: uppercase;
-   }
-   main section .food .pic {
-      width: 95%;
-      margin: auto;
-      margin-bottom: 20px;
-      box-shadow: 0px 0px 10px white;
 
-      border-radius: 20px;
+   main section .main .lunch .left .div h2 {
+      font-size: 1.1em
    }
-   main section .food .discount{
-      width: 90%;
+
+   main section .main .lunch .left .div p {
+      font-size: 1em;
+   }
+}
+
+main section .main .button {
+   width: 100%;
+}
+
+main section .chosse {
+   width: 100%;
+   height: 140vh;
+   overflow: hidden;
+   background-color: rgb(255, 255, 255);
+}
+
+main section .chosse h4 {
+   color: rgb(118, 38, 38);
+   font-family: 'Larken', sans-serif;
+   margin-top: 100px;
+   margin-left: 100px;
+   text-transform: uppercase;
+}
+
+main section .chosse h1 {
+   /* color: firebrick; */
+   margin-top: 50px;
+   margin-left: 100px;
+   text-transform: uppercase;
+   font-family: 'Larken', sans-serif;
+}
+
+main section .chosse .container {
+   /* background-color: red; */
+   height: 100vh;
+}
+
+main section .chosse .container .row .col {
+   /* border: 2px dotted lightgray; */
+   background-image: radial-gradient(rgb(255, 216, 254), rgb(255, 255, 255));
+   height: 365px;
+   border-radius: 5px;
+}
+
+main section .chosse .container .row .col p {
+   color: gray;
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+   main section .chosse {
+      width: 100%;
       height: auto;
-      background-color: white;
-      background-image: radial-gradient(pink,white);
-      border-radius: 20px;
+      overflow: hidden;
+   }
+
+   main section .chosse h4 {
+      font-size: 1em;
+      margin-left: 10px;
+   }
+
+   main section .chosse h1 {
+      font-size: 1.2em;
+      margin-left: 10px;
+   }
+
+   main section .chosse .container .row {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+
+   main section .chosse .container .row .col {
+      width: 100%;
       margin: auto;
+      display: block;
+   }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+   main section .chosse {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+   }
+
+   main section .chosse h4 {
+      font-size: 1.2em;
+      margin-top: 30px;
+      margin-left: 20px;
+   }
+
+   main section .chosse h1 {
+      font-size: 1.4em;
+      margin-left: 20px;
+   }
+
+   main section .chosse .container .row {
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto;
+   }
+
+   main section .chosse .container .row .col {
+      width: 100%;
+      margin: auto;
+      display: block;
       padding: 20px;
       box-sizing: border-box;
-      text-transform: uppercase;
-      box-shadow: 0px 0px 10px white;
    }
+}
 
-   main section .food .discount .h2 b{
-     color: firebrick;
-     text-transform: uppercase;
-     text-decoration: underline;
+main section .food {
+   width: 100%;
+   height: auto;
+   background-color: rgb(248, 235, 210);
+   background-image: linear-gradient(to top, pink, white);
+   margin-top: 30px;
+}
+
+main section .food .h3 {
+   color: firebrick;
+   text-align: center;
+   margin: 0;
+   text-transform: uppercase;
+}
+
+main section .food .h1 {
+   /* color: firebrick; */
+   text-align: center;
+   text-transform: uppercase;
+}
+
+main section .food .pic {
+   width: 95%;
+   margin: auto;
+   margin-bottom: 20px;
+   box-shadow: 0px 0px 10px white;
+
+   border-radius: 20px;
+}
+
+main section .food .discount {
+   width: 90%;
+   height: auto;
+   background-color: white;
+   background-image: radial-gradient(pink, white);
+   border-radius: 20px;
+   margin: auto;
+   padding: 20px;
+   box-sizing: border-box;
+   text-transform: uppercase;
+   box-shadow: 0px 0px 10px white;
+}
+
+main section .food .discount .h2 b {
+   color: firebrick;
+   text-transform: uppercase;
+   text-decoration: underline;
+}
+
+main section .food .row {
+   width: 90%;
+   margin: auto;
+   padding-bottom: 20px;
+}
+
+main section .food .hello {
+   font-size: 14em;
+   color: rgb(252, 181, 193);
+   text-shadow: 1px 0px 2px white;
+
+}
+
+@media (min-width:375px)and (max-width:500px) {
+   main section .food .hello {
+      font-size: 3em;
    }
-   main section .food .row{
-      width: 90%;
-      margin: auto;
-      padding-bottom: 20px;
+}
+
+@media (min-width:501px)and (max-width:600px) {
+   main section .food .hello {
+      font-size: 3.2em;
    }
-   main section .food .hello{
-      font-size: 14em;
-      color: rgb(252, 181, 193);
-      text-shadow: 1px 0px 2px white;
-   
+}
+
+@media (min-width:601px)and (max-width:800px) {
+   main section .food .hello {
+      font-size: 4em;
    }
-   @media (min-width:375px)and (max-width:500px) {
-      main section .food .hello{
-         font-size: 3em;
-      }
+}
+
+@media (min-width:801px)and (max-width:1000px) {
+   main section .food .hello {
+      font-size: 6em;
    }
-    @media (min-width:501px)and (max-width:600px) {
-      main section .food .hello{
-         font-size: 3.2em;
-      }
-   } @media (min-width:601px)and (max-width:800px) {
-      main section .food .hello{
-         font-size: 4em;
-      }
+}
+
+@media (min-width:1001px)and (max-width:1300px) {
+   main section .food .hello {
+      font-size: 8em;
    }
-    @media (min-width:801px)and (max-width:1000px) {
-      main section .food .hello{
-         font-size: 6em;
-      }
-   }
-    @media (min-width:1001px)and (max-width:1300px) {
-      main section .food .hello{
-         font-size: 8em;
-      }
-   }
+}
+
+main section .news {
+   width: 100%;
+   height: auto;
+   background-color: white;
+   background-image: radial-gradient(rgb(255, 216, 254), rgb(255, 255, 255));
+}
+
+main section .news p {
+   text-align: center;
+}
+
+main section .news .h3 {
+   color: firebrick;
+}
+
+main section .news .row {
+   width: 90%;
+   margin: auto;
+   padding-bottom: 30px;
+}
+
+footer {
+   width: 100%;
+   height: 120vh;
+   background-image: linear-gradient(to top, black, rgb(255, 245, 255));
+
+}
+
+footer p {
+   text-align: center;
+}
+
+footer .icon {
+   width: 280px;
+   /* background-color: red; */
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+
+footer .icon i {
+   font-size: 2em;
+   width: 50px;
+   border-radius: 10px;
+   /* background-color: yellow; */
+   padding: 10px;
+   /* border-radius: 100%; */
+   cursor: pointer;
+}
+
+footer .icon i:hover {
+   background-color: rgba(4, 4, 4, 0.488);
+   box-shadow: 1px 0px 5pc white, 1px 0px 5px white;
+   color: white;
+}
+
+#other {
+   /* background-color: red; */
+   width: 80%;
+   margin: auto;
+}
