@@ -14,7 +14,7 @@ header .navbar .container-fluid .navbar-brand{
     font-family: cursive;
     margin-left: 20px;
     color: #FFF;
-    border: 2px solid #FFF;
+    /* border: 2px solid #FFF; */
 }
 header .navbar .container-fluid button{
     background-color: rgb(214, 166, 45);
@@ -392,8 +392,9 @@ header p{
    justify-content: center;
 
  }
- main section .main > .breakfast:nth-child(2) .pic {
-   background-image: url(./image/dinner.webp);
+ main section .main .dinner .pic {
+  background: url(./image/dinner.webp);
+  background-size: cover;
  }
   main section .main .breakfast .pic p{
    font-family: 'Larken', sans-serif;
@@ -926,4 +927,140 @@ color: gray;
    
    main section .chosse .container .row .col p{
     color: gray;
+   }
+   @media (min-width: 375px) and (max-width: 600px) {
+      main section  .chosse {
+         width: 100%;
+         height: auto;
+         overflow: hidden;
+      }
+      main section .chosse h4
+     {
+         font-size: 1em;
+         margin-left: 10px;
+      }
+       main section .chosse h1{
+         font-size: 1.2em;
+         margin-left: 10px;
+       }
+       main section .chosse .container .row{
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+       }
+       
+       main section .chosse .container .row .col{
+         width: 100%;
+         margin: auto;
+         display: block;
+       }
+   }
+     @media (min-width: 601px) and (max-width: 900px) {
+      main section  .chosse {
+         width: 100%;
+         height: auto;
+         overflow: hidden;
+      }
+      main section .chosse h4
+     {
+         font-size: 1.2em;
+         margin-top: 30px;
+         margin-left: 20px;
+      }
+       main section .chosse h1{
+         font-size: 1.4em;
+         margin-left: 20px;
+       }
+       main section .chosse .container .row{
+         width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+       }
+       
+       main section .chosse .container .row .col{
+         width: 100%;
+         margin: auto;
+         display: block;
+         padding: 20px;
+         box-sizing: border-box;
+       }
+   }
+   main section .food{
+      width: 100%;
+      height: auto;
+      background-color: rgb(248, 235, 210);
+      background-image: linear-gradient(to top, pink ,white);
+      margin-top: 30px;
+   }
+   main section .food .h3{
+      color: firebrick;
+      text-align: center;
+      margin: 0;
+      text-transform: uppercase;
+   }
+   main section .food .h1{
+      /* color: firebrick; */
+      text-align: center;
+      text-transform: uppercase;
+   }
+   main section .food .pic {
+      width: 95%;
+      margin: auto;
+      margin-bottom: 20px;
+      box-shadow: 0px 0px 10px white;
+
+      border-radius: 20px;
+   }
+   main section .food .discount{
+      width: 90%;
+      height: auto;
+      background-color: white;
+      background-image: radial-gradient(pink,white);
+      border-radius: 20px;
+      margin: auto;
+      padding: 20px;
+      box-sizing: border-box;
+      text-transform: uppercase;
+      box-shadow: 0px 0px 10px white;
+   }
+
+   main section .food .discount .h2 b{
+     color: firebrick;
+     text-transform: uppercase;
+     text-decoration: underline;
+   }
+   main section .food .row{
+      width: 90%;
+      margin: auto;
+      padding-bottom: 20px;
+   }
+   main section .food .hello{
+      font-size: 14em;
+      color: rgb(252, 181, 193);
+      text-shadow: 1px 0px 2px white;
+   
+   }
+   @media (min-width:375px)and (max-width:500px) {
+      main section .food .hello{
+         font-size: 3em;
+      }
+   }
+    @media (min-width:501px)and (max-width:600px) {
+      main section .food .hello{
+         font-size: 3.2em;
+      }
+   } @media (min-width:601px)and (max-width:800px) {
+      main section .food .hello{
+         font-size: 4em;
+      }
+   }
+    @media (min-width:801px)and (max-width:1000px) {
+      main section .food .hello{
+         font-size: 6em;
+      }
+   }
+    @media (min-width:1001px)and (max-width:1300px) {
+      main section .food .hello{
+         font-size: 8em;
+      }
    }
